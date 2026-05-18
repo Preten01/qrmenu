@@ -1,0 +1,101 @@
+{
+  "slug": "istanbul-kebap",
+  "restaurant": "İstanbul Kebap",
+  "tagline": "Geleneksel Türk Lezzetleri",
+  "logo": null,
+  "coverImage": null,
+  "address": "Kadıköy Mah. İstiklal Sok. No:5, İstanbul",
+  "phone": "+90 216 444 0200",
+  "whatsapp": "905335550200",
+  "instagram": "istanbulkebap",
+  "currency": "TRY",
+  "openingHours": [
+    { "days": "Her Gün", "hours": "11:00 – 23:00" }
+  ],
+  "categories": [
+    {
+      "id": "kebaps",
+      "name": "Kebaplar",
+      "emoji": "🍢",
+      "items": [
+        {
+          "id": "k1",
+          "name": "Adana Kebap",
+          "description": "El yapımı acılı kıyma kebabı, közlenmiş domates ve biber ile",
+          "price": 420,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        },
+        {
+          "id": "k2",
+          "name": "Urfa Kebap",
+          "description": "Sade kıyma kebabı, pilav ve salata ile",
+          "price": 395,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "k3",
+          "name": "Tavuk Şiş",
+          "description": "Marine edilmiş tavuk parçaları, sebze ve pilav ile",
+          "price": 350,
+          "image": null,
+          "badge": null,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "mezes",
+      "name": "Mezeler",
+      "emoji": "🫙",
+      "items": [
+        {
+          "id": "m1",
+          "name": "Humus",
+          "description": "Ev yapımı humus, zeytinyağı ve kırmızı biber ile",
+          "price": 120,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "m2",
+          "name": "Cacık",
+          "description": "Yoğurt, salatalık, sarımsak ve nane",
+          "price": 95,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "icecekler",
+      "name": "İçecekler",
+      "emoji": "🥛",
+      "items": [
+        {
+          "id": "i1",
+          "name": "Ayran",
+          "description": "Ev yapımı taze ayran",
+          "price": 45,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        },
+        {
+          "id": "i2",
+          "name": "Şalgam",
+          "description": "Geleneksel Adana şalgamı",
+          "price": 50,
+          "image": null,
+          "badge": null,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

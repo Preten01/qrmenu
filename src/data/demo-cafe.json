@@ -1,0 +1,198 @@
+{
+  "slug": "demo-cafe",
+  "restaurant": "Demo Cafe",
+  "tagline": "Lezzetin Adresi",
+  "logo": null,
+  "coverImage": null,
+  "address": "Bağcılar Mah. Atatürk Cad. No:12, İstanbul",
+  "phone": "+90 212 555 0100",
+  "whatsapp": "905325550100",
+  "instagram": "democafe",
+  "currency": "TRY",
+  "openingHours": [
+    { "days": "Pazartesi – Cuma", "hours": "09:00 – 22:00" },
+    { "days": "Cumartesi", "hours": "10:00 – 23:00" },
+    { "days": "Pazar", "hours": "11:00 – 21:00" }
+  ],
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Burgerler",
+      "emoji": "🍔",
+      "items": [
+        {
+          "id": "b1",
+          "name": "Classic Burger",
+          "description": "180g dana eti, cheddar peyniri, marul, domates ve özel sosumuzla",
+          "price": 320,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        },
+        {
+          "id": "b2",
+          "name": "BBQ Smoky Burger",
+          "description": "200g dana eti, BBQ sos, soğan halkası, cheddar ve tütsülenmiş et",
+          "price": 385,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "b3",
+          "name": "Crispy Chicken Burger",
+          "description": "Çıtır tavuk fileto, ranch sos, turşu ve coleslaw ile",
+          "price": 295,
+          "image": null,
+          "badge": "Yeni",
+          "available": true
+        },
+        {
+          "id": "b4",
+          "name": "Vegan Burger",
+          "description": "Bitkisel köfte, avokado, roka, domates ve vegan mayonez",
+          "price": 340,
+          "image": null,
+          "badge": null,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "name": "Pizzalar",
+      "emoji": "🍕",
+      "items": [
+        {
+          "id": "p1",
+          "name": "Margherita",
+          "description": "Domates sosu, mozzarella, taze fesleğen",
+          "price": 280,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "p2",
+          "name": "Karışık Pizza",
+          "description": "Sucuk, mantar, biber, zeytin ve mozzarella",
+          "price": 360,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        },
+        {
+          "id": "p3",
+          "name": "Truffle Pizza",
+          "description": "Truffle sosu, parmesan, roka ve çeri domates",
+          "price": 450,
+          "image": null,
+          "badge": "Yeni",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salatalar",
+      "emoji": "🥗",
+      "items": [
+        {
+          "id": "s1",
+          "name": "Sezar Salata",
+          "description": "Izgara tavuk, romaine marul, parmesan, kruton ve sezar sos",
+          "price": 220,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "s2",
+          "name": "Akdeniz Salatası",
+          "description": "Roka, domates, salatalık, zeytin, beyaz peynir, zeytinyağı",
+          "price": 195,
+          "image": null,
+          "badge": null,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "İçecekler",
+      "emoji": "🥤",
+      "items": [
+        {
+          "id": "d1",
+          "name": "Taze Limonata",
+          "description": "Ev yapımı taze sıkılmış limon, nane ve buz",
+          "price": 85,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        },
+        {
+          "id": "d2",
+          "name": "Filtre Kahve",
+          "description": "Özel harmanlı Etiyopya ve Kolombiya karışımı",
+          "price": 95,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "d3",
+          "name": "Türk Çayı",
+          "description": "Geleneksel demleme çay, iki bardak",
+          "price": 40,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "d4",
+          "name": "Smoothie",
+          "description": "Mevsim meyveleri, yoğurt ve bal ile",
+          "price": 120,
+          "image": null,
+          "badge": "Yeni",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Tatlılar",
+      "emoji": "🍰",
+      "items": [
+        {
+          "id": "t1",
+          "name": "Cheesecake",
+          "description": "New York usulü cheesecake, çilek sos ile",
+          "price": 175,
+          "image": null,
+          "badge": "Popüler",
+          "available": true
+        },
+        {
+          "id": "t2",
+          "name": "Sıcak Çikolatalı Sufle",
+          "description": "Akışkan çikolatalı sufle, vanilyalı dondurma ile",
+          "price": 195,
+          "image": null,
+          "badge": null,
+          "available": true
+        },
+        {
+          "id": "t3",
+          "name": "Tiramisu",
+          "description": "Geleneksel İtalyan tarifi, mascarpone ve espresso",
+          "price": 185,
+          "image": null,
+          "badge": null,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

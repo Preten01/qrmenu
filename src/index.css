@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply font-body antialiased;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  /* Skeleton shimmer effect */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      theme('colors.gray.200') 25%,
+      theme('colors.gray.100') 50%,
+      theme('colors.gray.200') 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  .dark .skeleton {
+    background: linear-gradient(
+      90deg,
+      theme('colors.gray.700') 25%,
+      theme('colors.gray.600') 50%,
+      theme('colors.gray.700') 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  /* Sticky category nav with blur */
+  .category-nav {
+    @apply sticky top-0 z-30 backdrop-blur-md;
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  /* Hide scrollbar but allow scrolling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  /* Safe area for bottom nav on iOS */
+  .pb-safe {
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+  }
+
+  /* Lazy image fade-in */
+  img.loaded {
+    animation: fadeIn 0.3s ease-out;
+  }
+}
